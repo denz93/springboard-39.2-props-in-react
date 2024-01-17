@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    .app {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .tweet {
+      width:300px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    
+    .tweet *:nth-child(1), 
+    .tweet *:nth-child(2),
+    .tweet *:nth-child(3) {
+      flex: 1 0 100px;
+    }
+    .tweet *:nth-child(4) {
+      flex: 3 0 300px;
+    }
+  </style>
 </head>
 <body>
 
